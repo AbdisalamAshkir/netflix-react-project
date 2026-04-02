@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#000000] text-white
+    }
+}
+
+
+@layer components{
+    .Link-stayle{
+        @apply px-2 transition-all hover:text-gray-300;
+    }
+    .form-control{
+        @apply w-full  rounded-lg bg-[#3a3a3a] py-4 text-lg text-white outline-none;
+    }
+    .btn{
+        @apply w-full rounded-lg bg-[#e50914] p-4 mt-10 text-white
+    }
+}
+
+/* waxaa loo is ticmaalaa tagsaka base halka components loo is ticmaalo class ka */
